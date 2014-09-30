@@ -5,6 +5,11 @@
   margin-left: 4em;
 }
 
+.quotes-row
+{
+    height: 235px;
+}
+
 /* Experience */
 
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display);
@@ -178,7 +183,7 @@ background: linear-gradient(
 
 
 .timeline-panel:hover h4 {
-    color: #F08080;
+    color: #996699;
     font-family: "Playfair Display";
 }
 

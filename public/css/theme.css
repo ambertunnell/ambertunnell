@@ -320,7 +320,7 @@ blockquote {
   padding: 1em 0;
 }
 .navbar .navbar-nav .current > a {
-  color: #88b7b3 !important;
+  color: #996699 !important;
 }
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
@@ -1504,7 +1504,7 @@ section h3 {
   font-size: 1em;
   font-weight: 600;
   text-transform: uppercase;
-  color: #88b7b3;
+  color: #996699;
   letter-spacing: 1px;
 }
 section p {
@@ -2032,8 +2032,9 @@ section .overlay-text {
 }
 footer.footer {
   background: #2b2d35;
-  padding: 5em 0;
+  padding: 3em 0;
   color: white;
+  height: 100px;
 }
 footer.footer .footer-logo {
   padding: 0 1em;
