@@ -26,8 +26,6 @@ class MainController < ApplicationController
     }
     
     Pony.mail(options)
-    
-    # redirect ('/')
   end
 
 end
