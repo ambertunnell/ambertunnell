@@ -1228,13 +1228,14 @@ section .login-overlay {
 #intro-video .carousel-caption-center .btn {
   margin: 1em 1em;
   padding: 1em 2em;
-  background: #88b7b3;
+  /*background: #4B0082;*/
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 #intro .carousel-caption-center .btn:hover,
 #intro-video .carousel-caption-center .btn:hover {
-  background: #68a49f;
+  background: #C0C0C0;
+  color: #2b2d35;
 }
 #intro .carousel-caption-left,
 #intro-video .carousel-caption-left {
