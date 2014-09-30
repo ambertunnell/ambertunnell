@@ -1,14 +1,9 @@
-use Rack::Static,
-  :urls => ["/img", "/js", "/css"],
-  :root => "public"
+require './config/environment.rb'
 
-run lambda { |env|
-  [
-    200,
-    {
-      'Content-Type'  => 'text/html',
-      'Cache-Control' => 'public, max-age=86400'
-    },
-    File.open('public/index.html', File::RDONLY)
-  ]
-}
+if defined?(ActiveRecord::Migrator) && ActiveRecord::Migrator.needs_migration?
+  raise 'Migrations are pending run `rake db:migrate` to resolve the issue.'
+end
+
+use Rack::MethodOverride
+use MainController
+run ApplicationController
