@@ -456,7 +456,7 @@ $(function() {
  		 $('#success').html("<div class='alert alert-danger'>");
             	$('#success > .alert-danger').html("<button type='button' class='close' data-dismiss='alert' aria-hidden='true'>&times;")
             	 .append( "</button>");
-            	$('#success > .alert-danger').append("<strong>Sorry "+first_name+" it seems that my mail server is not responding...</strong> Could you please email me directly to <a href='mailto:amber.tunnell@gmail.com?Subject=Message_Me;>amber.tunnell@gmail.com</a> ? Sorry for the inconvenience!");
+            	$('#success > .alert-danger').append("<strong>Sorry, "+first_name+", it seems that my mail server is not responding.</strong> Could you please email me directly at amber.tunnell@gmail.com? Sorry for the inconvenience!");
  	        $('#success > .alert-danger').append('</div>');
  		//clear all fields
  		$('#contactForm').trigger("reset");
