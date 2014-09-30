@@ -1,3 +1,4 @@
+
 class MainController < ApplicationController
 
   get '/' do
@@ -5,19 +6,20 @@ class MainController < ApplicationController
   end
 
   post '/contact' do
-    
+    require 'pony'
+
     options = {
       :to => 'amber.tunnell@gmail.com',
-      :from => params[:email],
-      :subject => "Notification",
+      :from => params[:first_name] + " " + params[:last_name] + " <" + params[:email] + ">",
+      :subject => params[:first_name] + " " + params[:last_name] + " has contacted you",
       :body => params[:message],
       :via => :smtp,
       :via_options => {
-        :address => 'smtp.sendgrid.net',
+        :address => 'smtp.gmail.com',
         :port => '587',
         :domain => 'heroku.com',
-        :user_name => ENV['SENDGRID_USERNAME'],
-        :password => ENV['SENDGRID_PASSWORD'],
+        :user_name => ENV['GMAIL_USERNAME'],
+        :password => ENV['GMAIL_PASSWORD'],
         :authentication => :plain,
         :enable_starttls_auto => true
         }
@@ -25,8 +27,7 @@ class MainController < ApplicationController
     
     Pony.mail(options)
     
-    redirect '/'
-
+    redirect ('/')
   end
 
 end
