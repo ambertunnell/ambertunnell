@@ -89,7 +89,7 @@ margin: auto;
             border-radius: 4px;
             // background-color: white;
 background: linear-gradient(
-   #88b7b3, #88b7b3 50%, #333 50%, #333
+   rgba(44, 46, 53, 0.97), rgba(44, 46, 53, 0.97) 50%, #88b7b3 50%, #88b7b3
 );
   background-size: 100% 202%;
   transition: all 0.2s ease;
@@ -162,9 +162,9 @@ background: linear-gradient(
             }
 
 .timeline > li > .timeline-panel:hover {
- border-color: white;
+ border-color: #996699;
  background-position: 100% 100%;
-
+ background-color: #88b7b3;
 }
 
 
@@ -174,7 +174,7 @@ background: linear-gradient(
 }
 
 .timeline-panel span {
-    color: black;
+    color: white;
 }
 .timeline-panel p {
     color: white;
@@ -183,19 +183,19 @@ background: linear-gradient(
 
 
 .timeline-panel:hover h4 {
-    color: #996699;
-    font-family: "Playfair Display";
+    color: #663366;
+    font-weight: 300em;
+    /*font-family: "Playfair Display";*/
 }
 
 .timeline-panel:hover h5 {
-    color: #999;
-}
+    color: white;}
 
 .timeline-panel:hover span {
-    color: #F08080;
+    color: white;
 }
 .timeline-panel:hover p {
-    color: #FFF5EE;
+    color: white;
     font-family: "Lucida Sans";
 }
 
