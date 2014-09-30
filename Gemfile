@@ -8,14 +8,10 @@ gem 'require_all'
 gem 'thin'
 gem 'pony'
 gem 'tux'
+gem 'pg', '0.15.1'
 
 
 group :test, :development do
-  gem 'sqlite3', '1.3.6'
   gem 'shotgun'
   gem 'pry'
-end
-
-group :production do
-  gem 'pg', '0.15.1'
 end
