@@ -1728,6 +1728,7 @@ section .overlay-text {
 }
 #testimonials .carousel .carousel-indicators {
   bottom: 0;
+  position: relative;
 }
 #testimonials .carousel .carousel-indicators li,
 #testimonials .carousel .carousel-indicators .active {

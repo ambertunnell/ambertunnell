@@ -7,7 +7,12 @@
 
 .quotes-row
 {
-    height: 235px;
+    height: 300px;
+}
+
+.social-icon:hover
+{
+    color: #88b7b3;
 }
 
 /* Experience */
