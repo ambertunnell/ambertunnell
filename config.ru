@@ -4,7 +4,7 @@ if defined?(ActiveRecord::Migrator) && ActiveRecord::Migrator.needs_migration?
   raise 'Migrations are pending run `rake db:migrate` to resolve the issue.'
 end
 
-use Rack::Static, :urls => ['/css', '/js', '/img'], :root => 'public'
+use Rack::Static, :urls => ['/css', '/js', '/img', '/fonts'], :root => 'public'
 
 use Rack::MethodOverride
 use MainController
