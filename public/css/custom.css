@@ -35,7 +35,7 @@
 
     #intro, .item
     {
-        height: 600px !important;
+        height: 700px !important;
     }
 
 }
@@ -43,7 +43,7 @@
 @media (max-width: 580px){
     #intro, .item
     {
-        height: 800px !important;
+        height: 1350px !important;
     }
 
 }
