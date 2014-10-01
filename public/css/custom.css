@@ -2,7 +2,8 @@
 
 .svg
 {
-  margin-left: 4em;
+    margin: auto;
+    width: 100%;
 }
 
 .quotes-row
@@ -19,6 +20,32 @@
 {
     color: #88b7b3;
     text-shadow: -1px -1px #666666;
+}
+
+#intro
+{
+    overflow: auto;
+}
+
+@media (max-width: 991px) and (min-width: 580px) {
+    .coffee-svg-box, .code-svg-box, .blog-svg-box, .contact-svg-box{
+       width: 50%;
+       float: left;
+    }
+
+    #intro, .item
+    {
+        height: 600px !important;
+    }
+
+}
+
+@media (max-width: 580px){
+    #intro, .item
+    {
+        height: 800px !important;
+    }
+
 }
 
 /* Experience */
