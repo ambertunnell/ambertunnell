@@ -1,8 +1,7 @@
-
 class MainController < ApplicationController
 
   get '/' do
-    erb :'main/index'
+    erb :'index'
   end
 
   post '/contact' do
