@@ -14,15 +14,21 @@
 }
 
 @media (max-width: 580px){
-    #intro
+    #intro, .item
     {
-        height: 1300px !important;
-
+      height: 1000px !important;
     }
 
     .carousel-caption-center
     {
-s
+      max-height: 600px !important;
     }
 
+}
+
+/*@media (max-width: 1199px) {
+  #intro .carousel-caption-center,
+  {
+    max-height: 1000px !important;
+  }*/
 }
