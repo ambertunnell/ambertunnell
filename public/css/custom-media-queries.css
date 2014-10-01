@@ -1,0 +1,28 @@
+/* Custom Media Queries */
+
+@media (max-width: 991px) and (min-width: 580px) {
+    .coffee-svg-box, .code-svg-box, .blog-svg-box, .contact-svg-box{
+       width: 50%;
+       float: left;
+    }
+
+    #intro, .item
+    {
+        height: 700px !important;
+    }
+
+}
+
+@media (max-width: 580px){
+    #intro
+    {
+        height: 1300px !important;
+
+    }
+
+    .carousel-caption-center
+    {
+s
+    }
+
+}
