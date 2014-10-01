@@ -1,12 +1,13 @@
 /* Custom Media Queries */
 
 @media (max-width: 991px) and (min-width: 580px) {
-    .coffee-svg-box, .code-svg-box, .blog-svg-box, .contact-svg-box{
+    .coffee-svg-box, .code-svg-box, .blog-svg-box, .contact-svg-box
+    {
        width: 50%;
        float: left;
     }
 
-    #intro, .item
+    #intro, #intro .item
     {
         height: 700px !important;
     }
@@ -14,7 +15,7 @@
 }
 
 @media (max-width: 580px){
-    #intro, .item
+    #intro, #intro .item
     {
       height: 1000px !important;
     }
@@ -23,12 +24,4 @@
     {
       max-height: 600px !important;
     }
-
-}
-
-/*@media (max-width: 1199px) {
-  #intro .carousel-caption-center,
-  {
-    max-height: 1000px !important;
-  }*/
 }
