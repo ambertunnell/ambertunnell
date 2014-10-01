@@ -1,4 +1,4 @@
-body {
+intrbody {
   background: #f6f6f6;
   font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -2035,7 +2035,7 @@ footer.footer {
   background: #2b2d35;
   padding: 3em 0;
   color: white;
-  height: 100px;
+  height: 10%;
 }
 footer.footer .footer-logo {
   padding: 0 1em;
