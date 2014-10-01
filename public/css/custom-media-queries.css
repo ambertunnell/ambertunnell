@@ -12,6 +12,7 @@
         height: 700px !important;
     }
 
+
 }
 
 @media (max-width: 580px){
@@ -23,5 +24,9 @@
     .carousel-caption-center
     {
       max-height: 600px !important;
+    }
+
+    #quotes {
+      display: hide;
     }
 }
