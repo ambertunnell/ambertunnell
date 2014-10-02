@@ -21,6 +21,12 @@
       height: 1000px !important;
     }
 
+    #intro .carousel-caption-center p 
+    {
+      width: 100%;
+      margin: 0;
+    }
+
     .carousel-caption-center
     {
       max-height: 600px !important;
