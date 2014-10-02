@@ -15,6 +15,17 @@
 
 }
 
+@media (max-width: 767px){
+  .timeline-body li {
+   text-align: left; 
+  }
+
+  .svg-container, .experience-svg
+    {
+      display: none !important;
+    }
+}
+
 @media (max-width: 580px){
     #intro, #intro .item
     {
@@ -34,5 +45,10 @@
 
     #quotes {
       display: hide;
+    }
+
+    .svg-container, .experience-svg
+    {
+      display: none !important;
     }
 }

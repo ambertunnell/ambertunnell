@@ -44,6 +44,11 @@ section h3
     color: black;
 }
 
+.carousel-control
+{
+    width: 0;
+}
+
 
 /********* Font Awesome Icons *********/
 .skill-icon
