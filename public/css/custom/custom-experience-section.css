@@ -1,36 +1,4 @@
-/* Main Page */
-
-.svg
-{
-    margin: auto;
-    width: 100%;
-}
-
-#intro .carousel-caption-center .btn
-{
-    background-color: rgba(80,80,80, 0.1);
-}
-
-/* Font Awesome Icons */
-.skill-icon
-{
-    color: #996699;
-}
-.social-icon
-{
-    color: black;
-}
-
-.social-icon:hover
-{
-    color: #88b7b3;
-    text-shadow: -1px -1px #666666;
-}
-
-
-
-
-/* Experience Section */
+/* Experience */
 
 @import url(http://fonts.googleapis.com/css?family=Playfair+Display);
 
@@ -196,26 +164,28 @@ background: linear-gradient(
 .timeline-panel span {
     color: white;
 }
-.timeline-panel p {
+.timeline-panel li {
     color: white;
     font-family: "Lucida Sans";
 }
 
 
 .timeline-panel:hover h4 {
-    color: #663366;
+    color: white;
+    text-shadow: -1px -1px #666666;
     font-weight: 300em;
     /*font-family: "Playfair Display";*/
 }
 
 .timeline-panel:hover h5 {
-    color: white;}
+    color: white;
+  }
 
 .timeline-panel:hover span {
     color: white;
 }
-.timeline-panel:hover p {
-    color: white;
+.timeline-panel:hover li {
+    color: #996699;
     font-family: "Lucida Sans";
 }
 

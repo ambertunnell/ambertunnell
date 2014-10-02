@@ -1,4 +1,4 @@
-intrbody {
+body {
   background: #f6f6f6;
   font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -320,7 +320,7 @@ blockquote {
   padding: 1em 0;
 }
 .navbar .navbar-nav .current > a {
-  color: #996699 !important;
+  color: #88b7b3 !important;
 }
 .navbar .nav > li > a:hover,
 .navbar .nav > li > a:focus {
@@ -1202,11 +1202,8 @@ section .login-overlay {
 #intro .carousel-caption-center h1,
 #intro-video .carousel-caption-center h1 {
   font-size: 3em;
-  font-weight: 500;
+  font-weight: 800;
   margin: 0 0 0.5em;
-  position: relative;
-  top: -50px;
-  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif
 }
 #intro .carousel-caption-center h2,
 #intro-video .carousel-caption-center h2 {
@@ -1221,21 +1218,18 @@ section .login-overlay {
   line-height: 1.8;
   color: rgba(255, 255, 255, 0.9);
   margin: 1em 10em;
-  position: relative;
-  top: -60px;
 }
 #intro .carousel-caption-center .btn,
 #intro-video .carousel-caption-center .btn {
-  margin: 1em 1em;
+  margin: 1em 0;
   padding: 1em 2em;
-  /*background: #4B0082;*/
+  background: #88b7b3;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
 }
 #intro .carousel-caption-center .btn:hover,
 #intro-video .carousel-caption-center .btn:hover {
-  background: #C0C0C0;
-  color: #2b2d35;
+  background: #68a49f;
 }
 #intro .carousel-caption-left,
 #intro-video .carousel-caption-left {
@@ -1504,7 +1498,7 @@ section h3 {
   font-size: 1em;
   font-weight: 600;
   text-transform: uppercase;
-  color: #996699;
+  color: #88b7b3;
   letter-spacing: 1px;
 }
 section p {
@@ -1728,7 +1722,6 @@ section .overlay-text {
 }
 #testimonials .carousel .carousel-indicators {
   bottom: 0;
-  position: relative;
 }
 #testimonials .carousel .carousel-indicators li,
 #testimonials .carousel .carousel-indicators .active {
@@ -2033,9 +2026,8 @@ section .overlay-text {
 }
 footer.footer {
   background: #2b2d35;
-  padding: 3em 0;
+  padding: 5em 0;
   color: white;
-  height: 10%;
 }
 footer.footer .footer-logo {
   padding: 0 1em;

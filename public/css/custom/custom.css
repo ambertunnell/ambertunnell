@@ -1,0 +1,62 @@
+section h3
+{
+    color: #996699;
+}
+
+
+/************ Main Page *************/
+
+.svg
+{
+    margin: auto;
+    width: 100%;
+}
+
+#intro .carousel-caption-center h1
+{
+    font-size: 3em;
+    font-weight: 500;
+    margin: 0 0 0.5em;
+    position: relative;
+    top: -50px;
+    font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#intro .carousel-caption-center p
+{
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.8;
+    color: rgba(255, 255, 255, 0.9);
+    margin: 1em 10em;
+    position: relative;
+    top: -60px;
+}
+
+#intro .carousel-caption-center .btn
+{
+    background-color: #2b2d35;
+}
+
+#intro .carousel-caption-center .btn:hover 
+{
+    background-color: #fff;
+    color: black;
+}
+
+
+/********* Font Awesome Icons *********/
+.skill-icon
+{
+    color: #996699;
+}
+.social-icon
+{
+    color: black;
+}
+
+.social-icon:hover
+{
+    color: #88b7b3;
+    text-shadow: -1px -1px #666666;
+}
