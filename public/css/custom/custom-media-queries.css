@@ -1,5 +1,11 @@
 /* Custom Media Queries */
 
+@media (min-width: 1200px) {
+  .col-lg-1,.col-lg-12 {
+    float: center  !important;
+  }
+}
+
 @media (max-width: 991px) and (min-width: 580px) {
     .coffee-svg-box, .code-svg-box, .blog-svg-box, .contact-svg-box
     {
@@ -11,8 +17,6 @@
     {
         height: 700px !important;
     }
-
-
 }
 
 @media (max-width: 767px){
@@ -52,3 +56,4 @@
       display: none !important;
     }
 }
+

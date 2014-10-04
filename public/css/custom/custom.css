@@ -58,6 +58,7 @@ section h3
 .social-icon
 {
     color: black;
+    padding: 10px;
 }
 
 .social-icon:hover
