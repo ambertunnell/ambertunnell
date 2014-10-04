@@ -57,10 +57,13 @@
     {
       display: none !important;
     }
+}
 
-    div.row.social 
+@media (max-width: 400px){
+      div.row.social 
     {
       height: 330px;
     }
 }
+
 
