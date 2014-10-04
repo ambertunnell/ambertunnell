@@ -32,13 +32,6 @@
   }
 }
 
-@media (max-width: 718px){
-/*  div.row.social 
-  {
-    height: 230px;
-  }*/
-}
-
 @media (max-width: 580px){
   #intro, #intro .item
   {
@@ -61,12 +54,3 @@
     display: none !important;
   }
 }
-
-@media (max-width: 414px){
-/*  div.row.social 
-  {
-    height: 330px;
-  }*/
-}
-
-
