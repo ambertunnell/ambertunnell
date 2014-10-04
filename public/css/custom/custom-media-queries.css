@@ -53,13 +53,14 @@
       max-height: 600px !important;
     }
 
-    #quotes {
-      display: hide;
-    }
-
     .svg-container, .experience-svg
     {
       display: none !important;
+    }
+
+    div.row.social 
+    {
+      height: 330px;
     }
 }
 
